@@ -11,21 +11,21 @@ html{
 
 /* inizio conteiner */
 .container{
-    width: 55%;
+    width: 45%;
+    height: 50%;
     margin: 0% auto;
     background-color: white;
 }
 
 .marg {
     margin-top: 2%;
-    height: 5em;
-    background-color: #e579e6;
+    /* background-color: #e579e6; */
 }
 
 .marg2 {
     margin-top: 2%;
     margin-bottom: 2%;
-    height: 20em;
+    height: auto;
     background-color: #e1d67a;
 }
 
@@ -88,4 +88,29 @@ html{
     height: 2em;
     background-color: #8801fe;
 
+}
+
+/* header */
+.logo {
+    width: 50%;
+    height: 20%;
+}
+
+img.resize {
+    height: 20%;
+    width: 30%;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 3px 0  0;
+    color: #B5B5B5;
+}
+
+/* banner pub */
+
+.banner {
+    width: 100%;
+    background-image: url('../img/banner.jpg');
 }
