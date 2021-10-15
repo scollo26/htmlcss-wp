@@ -67,14 +67,14 @@ html{
 .container-s, 
 .container-d{
     width: 25%;
-    height: 25em;
+    height: 15em;
     /* background-color: #abcfe7; */
 
 }
 
 .container-c {
     width: 47%;
-    height: 25em;
+    height: 15em;
     margin: 0 6px;
     /* background-color: #abcfe7; */
   
@@ -122,20 +122,23 @@ a{
     font-weight: normal;
     width: auto;
     height: 600px ;
-    
     /* padding-top: 40% */
     
 }
 
 
-    /* .mydiv{
-        width:40%;
-        background: rgba(0, 0, 0, 0.5);
-    
-        margin: 0 auto;
-        padding: 0% 40% 0% 59%;
-    
+ /* .mydiv{
+     width:40%;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 0% 40% 0% 59%;
       } */
+
+
+
+
+    /* contenuto tabella float */
+      
 .cont-testo{
     height: 10%;
     margin-top: 0%;
@@ -184,4 +187,13 @@ a{
 
 .allinea{
     text-align: center;
+}
+
+.opacity{
+    width:0%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    
+    padding: 70px;
+    
 }
