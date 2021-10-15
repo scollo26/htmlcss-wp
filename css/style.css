@@ -6,6 +6,7 @@
 
 html{
     font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -37,8 +38,8 @@ html{
 
 .header-main {
     height: 3em;
-    margin-bottom: 3px;
-    background-color: lightskyblue;
+    margin-bottom: 10px;
+    /* background-color: lightskyblue; */
    
 }
 
@@ -59,7 +60,7 @@ html{
 
 
 .color-blu {
-    background-color: blue;
+    /* background-color: blue; */
     padding-bottom: 5px;
 }
 
@@ -67,7 +68,7 @@ html{
 .container-d{
     width: 25%;
     height: 25em;
-    background-color: #abcfe7;
+    /* background-color: #abcfe7; */
 
 }
 
@@ -75,7 +76,7 @@ html{
     width: 47%;
     height: 25em;
     margin: 0 6px;
-    background-color: #abcfe7;
+    /* background-color: #abcfe7; */
   
     
 }
@@ -86,7 +87,7 @@ html{
 .footer {
     margin-top: 0.5%;
     height: 2em;
-    background-color: #8801fe;
+    /* background-color: #8801fe; */
 
 }
 
@@ -94,6 +95,7 @@ html{
 .logo {
     width: 50%;
     height: 20%;
+    margin-bottom: 40px;
 }
 
 img.resize {
@@ -101,44 +103,85 @@ img.resize {
     width: 30%;
 }
 
-li{
-    list-style-type: none;
-    display: inline-block;
-    margin: 10px 3px 0  0;
-    color: #B5B5B5;
-}
-
-/* banner pub */
-
-/* .pub {
-    width: 50%;
-    height: 10%;
-} */
-
 h4 {
     display: inline-block;
     height: 50px;
     font-size: 200%;
-    
-    
-
 }
-    
+/* jumbotron */
+
+a{
+     text-decoration: none;
+     color:gray;
+}
+
 .banner {
-    /* background-repeat: no-repeat; */
     background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
     color: black;
     font-weight: normal;
-    line-height: 260px;
     width: auto;
     height: 600px ;
-    /* padding-top: 30%; */
+    
+    /* padding-top: 40% */
+    
 }
 
-.trasparenza {
-    background: rgba(0,0,0,0.5);
+
+    /* .mydiv{
+        width:40%;
+        background: rgba(0, 0, 0, 0.5);
+    
+        margin: 0 auto;
+        padding: 0% 40% 0% 59%;
+    
+      } */
+.cont-testo{
+    height: 10%;
+    margin-top: 0%;
+    padding-top: 0%;
 }
-.cont-tetso{
-    margin-top: 50%;
-    padding-top: 20%;
+
+.paragrafo{
+    font-size: small;
+}
+
+
+.resized{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+
+}
+
+
+
+.img-s{
+    background-image: url('../img/img-1.jpg');
+    height: 10em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.img-c{
+    
+    background-image: url('../img/banner-2.jpg');
+    background-size: 80%;
+    height: 20em;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+
+}
+
+.img-d{
+
+    background-image: url('../img/img-3.jpg');
+    background-size: 100%;
+    height: 10em;
+    background-repeat: no-repeat;
+}
+
+.allinea{
+    text-align: center;
 }
