@@ -12,7 +12,7 @@ html{
 
 /* inizio conteiner */
 .container{
-    width: 45%;
+    width: 50%;
     height: 50%;
     margin: 0% auto;
     background-color: white;
@@ -27,6 +27,7 @@ html{
     margin-top: 2%;
     margin-bottom: 2%;
     height: auto;
+    width: 80%;
     /* background-color: #e1d67a; */
 }
 
@@ -66,19 +67,14 @@ html{
 
 .container-s, 
 .container-d{
-    width: 25%;
+    width: 20%;
     height: 15em;
-    /* background-color: #abcfe7; */
-
 }
 
 .container-c {
-    width: 47%;
+    width: 40%;
     height: 15em;
-    margin: 0 6px;
-    /* background-color: #abcfe7; */
-  
-    
+    margin: 0 6px;   
 }
 
 
@@ -87,8 +83,6 @@ html{
 .footer {
     margin-top: 0.5%;
     height: 2em;
-    /* background-color: #8801fe; */
-
 }
 
 /* header */
@@ -104,25 +98,29 @@ img.resize {
 }
 
 h4 {
-    font-size: 200%;
-    padding: 30% 60% 0 0;
-    
+    color: white;
+    font-size: 100%;
+    padding: 30% 0% 0 0;   
 }
+
+
 /* jumbotron */
 
 a{
      text-decoration: none;
      color:gray;
+     margin-left: 3%;
 }
 
-.banner {
+.jumbotron {
     background-image: url('../img/banner.jpg');
     background-repeat: no-repeat;
     color: black;
     font-weight: normal;
     background-color: rgba(0, 0, 0, 0.3);
-    width: auto;
+    width: 100%;
     height: auto ;
+
     
 }
 
@@ -136,6 +134,8 @@ a{
 
 .paragrafo{
     font-size: small;
+    color: white;
+    margin-top: 5px;
 }
 
 
@@ -178,7 +178,7 @@ a{
     text-align: center;
 }
 
-.opacity-banner{
+.opacity-jumbotron{
     height: auto;
     background: rgba(0, 0, 0, 0.3);
     padding: 10% ;
