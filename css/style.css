@@ -11,7 +11,7 @@ html{
 
 /* inizio conteiner */
 .container{
-    width: 50%;
+    width: 55%;
     margin: 0% auto;
     background-color: white;
 }
@@ -31,15 +31,15 @@ html{
 
 
 .cont-main {
-    background-color: #abcfe7;
     height: 25em;
 }
 
 
 .header-main {
     height: 3em;
+    margin-bottom: 3px;
     background-color: lightskyblue;
-    border-bottom: 5px solid blue;
+   
 }
 
 /* float */
@@ -57,33 +57,29 @@ html{
 
 /* inizio container float */
 
+
+.color-blu {
+    background-color: blue;
+    padding-bottom: 5px;
+}
+
 .container-s, 
 .container-d{
     width: 25%;
     height: 25em;
+    background-color: #abcfe7;
 
 }
 
 .container-c {
-    width: 50%;
+    width: 47%;
     height: 25em;
-    border: 5px solid blue;
-    border-bottom: 10px solid blue ;
+    margin: 0 6px;
+    background-color: #abcfe7;
+  
     
 }
 
-
-
-
-div .container-s:first-child{
-    border-top: 5px solid blue;
-    border-bottom:10px solid blue;
-}
-div .container-d:last-child {
-    border-top: 5px solid blue;
-    border-bottom: 10px solid blue;
-
-}
 
 /* footer */
 
