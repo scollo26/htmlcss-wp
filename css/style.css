@@ -104,9 +104,9 @@ img.resize {
 }
 
 h4 {
-    display: inline-block;
-    height: 50px;
     font-size: 200%;
+    padding: 30% 60% 0 0;
+    
 }
 /* jumbotron */
 
@@ -120,22 +120,11 @@ a{
     background-repeat: no-repeat;
     color: black;
     font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.3);
     width: auto;
-    height: 600px ;
-    /* padding-top: 40% */
+    height: auto ;
     
 }
-
-
- /* .mydiv{
-     width:40%;
-    background: rgba(0, 0, 0, 0.5);
-    margin: 0 auto;
-    padding: 0% 40% 0% 59%;
-      } */
-
-
-
 
     /* contenuto tabella float */
       
@@ -170,11 +159,11 @@ a{
 .img-c{
     
     background-image: url('../img/banner-2.jpg');
-    background-size: 80%;
-    height: 20em;
-    background-repeat: no-repeat;
-    vertical-align: middle;
 
+    background-size: 80%;
+    height: 10em;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .img-d{
@@ -189,11 +178,16 @@ a{
     text-align: center;
 }
 
-.opacity{
-    width:0%;
+.opacity-banner{
+    height: auto;
     background: rgba(0, 0, 0, 0.3);
-    border-radius: 30px;
+    padding: 10% ;
     
-    padding: 70px;
-    
+}
+.opacity{
+    height: 10em;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10% ;
+    border-radius: 5%;
+
 }
